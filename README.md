@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/33275708/README.md)[Uploading READM# 猜数字小游戏（Guess Number）
+# 猜数字小游戏（Guess Number）
 
 一个用 Python 编写的命令行猜数字小游戏：程序随机生成 1-100 之间的整数，玩家反复猜测，程序提示"大了"或"小了"，直到猜中并统计所用的猜测次数。
 
@@ -66,7 +66,7 @@ python guess_number.py
 ### 方式二：直接进入已有目录运行
 
 ```bash
-cd E:\WorkBuddy\2026-10-08-19-19-39
+cd E:\play_do\first
 python guess_number.py
 ```
 
@@ -88,8 +88,7 @@ python guess_number.py
 .
 ├── guess_number.py   # 游戏主程序，唯一源码文件，也是程序入口
 ├── README.md         # 项目说明文档（本文件）
-├── .git/             # Git 版本库（已推送到 GitHub 仓库 ForShy6/1）
-└── .workbuddy/       # WorkBuddy 会话与记忆数据，与游戏运行无关
+└── .git/             # Git 版本库（已推送到 GitHub 仓库 ForShy6/1）
 ```
 
 入口文件 `guess_number.py` 的关键结构：
